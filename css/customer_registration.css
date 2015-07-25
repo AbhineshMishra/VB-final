@@ -1,0 +1,46 @@
+.mainLoginInput::-webkit-input-placeholder {
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.mainLoginInput:-ms-input-placeholder {
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.mainLoginInput:-moz-placeholder {
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+.mainLoginInput::-moz-placeholder {
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+}
+
+
+input.user::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #909;
+}
+input.user:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #909;
+   opacity:  1;
+}
+input.user::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #909;
+   opacity:  1;
+}
+input.user:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #909;
+}
+
+input.relative::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #;
+}
+input.relative:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #;
+   opacity:  1;
+}
+input.relative::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #;
+   opacity:  1;
+}
+input.relative:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #;
+}
